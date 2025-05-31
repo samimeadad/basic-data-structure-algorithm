@@ -23,7 +23,7 @@ const binarySearch = ( array, target ) => {
     return -1;
 }
 
-const searchIndex = binarySearch( numbers, 18 );
+const searchIndex = binarySearch( numbers, 718 );
 if ( searchIndex === -1 ) {
     console.log( 'Not found' );
 }

@@ -10,7 +10,7 @@ const linearSearch = ( array, target ) => {
     return -1;
 }
 
-const searchIndex = linearSearch( numbers, 58 );
+const searchIndex = linearSearch( numbers, 45 );
 if ( searchIndex === -1 ) {
     console.log( 'Not found' );
 }
